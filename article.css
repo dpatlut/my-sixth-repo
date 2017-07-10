@@ -1,0 +1,26 @@
+
+#container{
+  width: 1000px;
+  margin:0 auto;
+  background-color:lightblue;
+}
+
+.half{
+  width: 49%;
+  height: 300px;
+  display: inline-block;
+  margin: 0 auto 50px;
+  background-image:url('https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/All-about-puppies--Cesar%E2%80%99s-tips%2C-tricks-and-advice.jpg?itok=bi9xUvwe');
+}
+
+
+@media screen and (max-width: 450px){
+  .half{
+    display: block;
+    background-image:url('http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg');
+  }
+
+  #container{
+      background-color:yellow;  
+  }
+}
