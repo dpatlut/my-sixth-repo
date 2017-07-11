@@ -6,10 +6,11 @@
 }
 
 .half{
-  width: 49%;
-  height: 300px;
+
+  width: 19%;
+  height: 700px;
   display: inline-block;
-  margin: 0 auto 50px;
+  margin: 0 auto 80px;
   background-image:url('https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/All-about-puppies--Cesar%E2%80%99s-tips%2C-tricks-and-advice.jpg?itok=bi9xUvwe');
 }
 
